@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import { Link, Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
-import Paste from './components/paste'
+import Paste from './components/Paste'
 import ViewPaste from './components/ViewPaste'
 import './App.css'
 
