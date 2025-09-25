@@ -1,0 +1,145 @@
+/* Container */
+.paste-container {
+  padding: 25px;
+  background: #f5f7fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Search bar */
+.search-input {
+  width: 90%;
+  max-width: 600px;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.search-input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 6px rgba(74, 144, 226, 0.4);
+}
+
+/* Paste list grid */
+.paste-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Paste card */
+.paste-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.paste-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* Title */
+.paste-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Content */
+.paste-content {
+  font-size: 15px;
+  max-height: 150px;
+  color: #555;
+  margin-bottom: 15px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-y: auto;
+}
+
+/* Actions */
+.paste-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.edit-btn {
+  background: #4a90e2;
+  color: white;
+}
+.edit-btn:hover {
+  background: #357abd;
+}
+
+.view-btn {
+  background: #50c878;
+  color: white;
+}
+.view-btn:hover {
+  background: #3aa864;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+}
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+.copy-btn {
+  background: #f1c40f;
+  color: black;
+}
+.copy-btn:hover {
+  background: #d4ac0d;
+}
+
+.share-btn {
+  background: #9b59b6;
+  color: white;
+}
+.share-btn:hover {
+  background: #7d3c98;
+}
+
+/* Date */
+.paste-date {
+  font-size: 13px;
+  color: #777;
+  margin-top: auto;
+}
+
+/* Empty state */
+.no-results {
+  font-size: 16px;
+  color: #888;
+  text-align: center;
+  margin-top: 40px;
+}

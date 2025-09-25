@@ -1,0 +1,73 @@
+.view-container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.view-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.view-meta {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.view-content {
+  width: 100%;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  resize: vertical;
+  outline: none;
+  background: #f9f9f9;
+  color: #444;
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.view-actions {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.copy-btn {
+  background: #f1c40f;
+  color: black;
+}
+.copy-btn:hover {
+  background: #d4ac0d;
+}
+
+.share-btn {
+  background: #9b59b6;
+  color: white;
+}
+.share-btn:hover {
+  background: #7d3c98;
+}
+
+.not-found {
+  text-align: center;
+  font-size: 18px;
+  color: #999;
+  margin-top: 50px;
+}
