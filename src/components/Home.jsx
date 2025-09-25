@@ -74,7 +74,7 @@ import { useSearchParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { ToastContainer, toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
-import './Home.css';   // ✅ import css
+import './home.css';   // ✅ import css
 
 const Home = () => {
   const [title, setTitle] = useState("");

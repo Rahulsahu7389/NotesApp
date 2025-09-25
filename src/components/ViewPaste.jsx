@@ -33,7 +33,7 @@ import Navbar from "./Navbar";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 
-import "./ViewPaste.css"; // ✅ import css
+import "./viewpaste.css"; // ✅ import css
 
 const ViewPaste = () => {
   const allPastes = useSelector((state) => state.paste.pastes);

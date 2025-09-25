@@ -79,7 +79,7 @@ import { removeFromPastes } from '../redux/pasteSlice';
 import { useSelector, useDispatch } from 'react-redux';
 import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
-import './Paste.css';   // ✅ import css
+import './paste.css';   // ✅ import css
 
 const Paste = () => {
   const pastes = useSelector((state) => state.paste.pastes);
